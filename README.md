@@ -75,7 +75,7 @@ Each run saves a JSON report under `runs/`:
   "pass_at_1": 0.5629,
   "num_tasks": 167,
   "date": "2025-09-12T00:00:00Z",
-  "model_name": "your-32b-model"
+  "model_name": "X"
 }
 ```
 

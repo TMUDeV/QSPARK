@@ -1,12 +1,19 @@
+# Basic dependencies for dataset generation
+requests>=2.25.1
+tqdm>=4.60.0
 
-torch>=2.2.0
-transformers>=4.42.0
-accelerate>=0.33.0
-datasets>=2.20.0
-trl>=0.9.6
-peft>=0.11.1
-evaluate>=0.4.2
-qiskit>=1.2.0
-tqdm>=4.66.0
-numpy>=1.26.0
-python-dotenv>=1.0.1
+# ORPO/GRPO training dependencies 
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.14.0
+trl>=0.7.0
+accelerate>=0.24.0
+unsloth>=2024.1
+bitsandbytes
+peft>=0.10.0
+qiskit>=0.45.0
+qiskit-aer>=0.13.0
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0

@@ -1,6 +1,8 @@
 # Qiskit Dataset Generation & ORPO Training Pipeline
-
 A comprehensive pipeline for generating Qiskit datasets and training language models using ORPO (Odds Ratio Preference Optimization).
+## About this work:
+This repository accompanies the paper “QSpark: Towards Reliable Qiskit Code Generation via ORPO and GRPO Optimization.”
+The study introduces a unified framework that scrapes Qiskit-related repositories from GitHub, constructs HumanEval-style and preference datasets, and fine-tunes large language models using both ORPO and GRPO optimization techniques. The work demonstrates significant improvements in quantum code reliability, simulation success rates, and state fidelity across benchmark tasks, highlighting the importance of quantum-aware reward mechanisms for generative model training.
 
 ## Description
 
@@ -244,3 +246,16 @@ Feel free to contribute to this project by submitting issues or pull requests.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+## Citation
+
+If you use this repository or build upon this work, please cite:
+
+```bibtex
+@article{kheiri2025qspark,
+  title={QSpark: Towards Reliable Qiskit Code Generation},
+  author={Kheiri, Kiana and Aamir, Aamna and Miranskyy, Andriy and Ding, Chen},
+  journal={arXiv preprint arXiv:2507.12642},
+  year={2025}
+}
+```
+
